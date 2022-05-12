@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  background-color: white;
+  padding: 20px 40px;
+  color: black;
+}
+
+.topo {
+  text-align: center;
+}
+
+.bike {
+  width: 80%;
+}
+
+.mais {
+  background-color: #ee2211;
+  color: white;
+  border-radius: 5px;
+}
+
+/** GRID **/
+.grid {
+  display: grid;
+  gap: 50px;
+}
+
+.menu {
+  display: flex;
+  place-content: center;
+  gap: 30px;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sobre1 {
+  background-color: white;
+  text-align: right;
+  display: grid;
+  
+    
+}
+.sobre2 {
+  background-color: white;
+}
+
+.footer {
+  display: grid;
+  place-items: center;
+  background-color: white;
+}
