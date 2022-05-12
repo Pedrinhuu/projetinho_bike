@@ -56,6 +56,14 @@ a {
 
 .sobre2 {
   background-color: white;
+  display: grid;
+}
+
+.sobre3 {
+  display: grid;
+  place-items: center;
+  color: #c6c6c6;
+  font-size: 64px;
 }
 
 .footer {
