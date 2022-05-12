@@ -48,8 +48,10 @@ a {
 
 .sobre1 {
   background-color: white;
-  text-align: right;
   display: grid;
+  place-content: center;
+  text-align: right;
+  padding: 60px;
 }
 
 .sobre2 {
