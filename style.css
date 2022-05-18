@@ -5,7 +5,7 @@ body {
   display: grid;
   gap: 60px;
   justify-items: center;
-  margin-top: 60px;
+  
 }
 
 img {
@@ -107,6 +107,7 @@ p {
   background: #fff;
   width: 100%;
   text-align: center;
-  padding: 40px;
-  box-sizing: border-box;
+  padding: 40px 0px;
+  grid-row: 5;
+  
 }
